@@ -16,7 +16,7 @@ RUN wget https://nodejs.org/dist/v${VERSION}/node-v${VERSION}.tar.gz \
 	&& make install
 
 # removing extraneous packages
-RUN apt-get purge -y --auto-remove build-essential \
+RUN apt-get purge -y --auto-remove build-essential
 
 RUN apt-get clean \
 	&& apt-get autoremove \
