@@ -2,7 +2,7 @@ FROM soriyath/debian-swissfr
 MAINTAINER Sumi Straessle
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV VERSION 5.12.0
+ENV VERSION 6.9.1
 
 RUN	DEBIAN_FRONTEND=noninteractive set -ex \
 	&& apt-get update \
