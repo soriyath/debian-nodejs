@@ -26,4 +26,4 @@ WORKDIR /srv/app
 EXPOSE 27017 28017
 
 # default command
-CMD ["supervisord", "-c", "/etc/supervisor.conf"]
+CMD ["supervisord", "-c", "/etc/supervisor/supervisor.conf"]
